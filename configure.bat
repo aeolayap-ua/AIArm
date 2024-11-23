@@ -1,0 +1,2 @@
+REM For Linux system (once installed gcc, g++, make and cmake) cmake -S . -B out/build
+cmake -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER="C:/MinGW/bin/g++.exe" -DCMAKE_C_COMPILER="C:/MinGW/bin/gcc.exe" -S . -B out/build
